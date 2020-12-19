@@ -1,6 +1,6 @@
 # Secure Program Config - hxp CTF 2020
 
-Solved by Kaiziron - Team : Black Bauhinia
+Solved by [Kaiziron](https://twitter.com/Kaiziron) - Team : Black Bauhinia
 	
 Solved on 2020-12-19 14:19 (Time in HK)
 
