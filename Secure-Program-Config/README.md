@@ -1,4 +1,4 @@
-# Secure Program Config
+# Secure Program Config - hxp CTF 2020
 
 Solved by Kaiziron - Team : Black Bauhinia
 	
