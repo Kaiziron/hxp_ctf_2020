@@ -39,7 +39,7 @@ There are 2 files in the tar archive given, Panels.xml and Users.xml.
 ```
 
 
-The password of engineer is encrypted in Panels.xml, we need to install SPC Connect Pro and point it to the folder SPC Products according to the description.
+The password of engineer is encrypted and stored in Panels.xml, we need to install SPC Connect Pro and point it to the folder SPC Products according to the description.
 
 After SPC Connect Pro is installed, the credentials to login is admin/admin according to the description.
 
