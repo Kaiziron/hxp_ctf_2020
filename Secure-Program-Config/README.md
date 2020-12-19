@@ -26,7 +26,7 @@ Oh no … my boss is calling again … we talk later … good luck.
 Configuration files are given : [Secure Program Config-f0a3e4f922071458.tar.xz (716 Bytes)](https://2020.ctf.link/assets/files/Secure%20Program%20Config-f0a3e4f922071458.tar.xz)
 
 ## Solution
-There are 2 files in the tar archive given, Panels.xml and Users.xml.
+There are 2 files in the given tar archive, Panels.xml and Users.xml.
 
 ### Panels.xml
 ```
