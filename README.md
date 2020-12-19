@@ -1,1 +1,1 @@
-# Writeups of hxp CTF 2020
+# Writeups of solved challenge in hxp CTF 2020
