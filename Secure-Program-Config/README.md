@@ -7,7 +7,7 @@ Solved on 2020-12-19 14:19 (Time in HK)
 ```
 Difficulty estimate: easy
 
-Points: round(1000 · min(1, 10 / (9 + [53 solves]))) = 161 points
+Points: round(1000 · min(1, 10 / (9 + [85 solves]))) = 106 points
 ```
 
 ## Description
