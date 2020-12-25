@@ -69,6 +69,8 @@ Finally, run the SPC Connect Pro again and login, we will see the password (whic
 
 ![flag.png](images/flag.png)
 
+---
+
 ## Flag
 ```
 hxp{4t_least_it_was_n0t_pla1ntext}
