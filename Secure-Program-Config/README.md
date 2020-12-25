@@ -10,6 +10,8 @@ Difficulty estimate: easy
 Points: round(1000 · min(1, 10 / (9 + [85 solves]))) = 106 points
 ```
 
+---
+
 ## Description
 ```
 Due to corona, I’m in home office and yesterday, I (while not being completely sober) played around with some alarm systems of the clients and … apparently … changed my engineer password since I cannot access anything anymore … my boss has called this morning and threatened to fire me if I don’t fix that ASAP … I have not the slightest idea what my password could be or how I can get it back … can you please help me recover it???!! I have to fix that mess somehow …
@@ -25,16 +27,18 @@ Oh no … my boss is calling again … we talk later … good luck.
 
 Configuration files are given : [Secure Program Config-f0a3e4f922071458.tar.xz (716 Bytes)](https://2020.ctf.link/assets/files/Secure%20Program%20Config-f0a3e4f922071458.tar.xz)
 
+---
+
 ## Solution
 There are 2 xml files in the given tar archive, Panels.xml and Users.xml.
 
 ### Panels.xml
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?><LOCAL_PANELS><LOCAL_PANEL PANEL_ID="1" NAME="A" ADDRESS="" PANEL_TYPE="0" FIRMWARE_VERSION="3.8.5" SERIAL_NUMBER="0" COMMS_PATH="1" IP_ADDRESS="192.168.1.100" TCP_PORT="50000" SERIAL_PORT_NAME="COM1" PHONE_NUMBER="0" BAUD_RATE="57600" AUTO_LOGIN_ENABLE="1" ENGINEER_USERNAME="Engineer" ENGINEER_ENCPASS="a+otqmLSU92rzNnOXGwaCehJjoX8FIlazg+TCelmsEryWnRfLLyXEsqs9mu4dQqJ" /></LOCAL_PANELS>
 ```
 
 ### Users.xml
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?><USERS><USER USERNAME="admin" PASSWORD_HASH="0x45B26F886EE4299B5DBEBFB852B06718B5EEF1F2" FIRST_NAME="admin" LAST_NAME="" LANGUAGE="0" /></USERS>
 ```
 
@@ -55,7 +59,7 @@ The username is showing in plaintext and password is hidden, so I make some chan
 
 The textbox showing the username originally is modified to show the password in plaintext.
 
-```
+```c#
 list.Add(new HtmlTemplateKvp("%%-ENGINEER_USERNAME-%%", panel.EngineerPassword));
 ```
 
